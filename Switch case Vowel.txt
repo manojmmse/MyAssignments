@@ -1,0 +1,36 @@
+public class Program
+{
+    public static void main(String[] args) 
+    {
+
+        char ch = 'z';
+        switch  (ch)
+
+        {
+
+        case 'a':
+            System.out.println("IT'S A VOWEL");
+            break;
+
+        case 'e':
+            System.out.println("IT'S A VOWEL");
+            break;
+
+        case 'i':
+            System.out.println("IT'S A VOWEL");
+            break;
+
+        case 'o':
+            System.out.println("IT'S A VOWEL");
+            break;
+
+        case 'u':
+            System.out.println("IT'S A VOWEL");
+            break;
+
+        default:
+            System.out.println("IT'S NOT A VOWEL");
+        }
+
+	}
+}

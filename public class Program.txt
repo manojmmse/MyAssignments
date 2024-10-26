@@ -1,0 +1,49 @@
+public class Program
+{
+    public static void main(String[] args) 
+    {
+        decider(15000);
+        jones("Jones");
+        manoj("Manoj");
+        add(15,20);
+
+	}
+    public static void decider(int salary)
+    {
+        if (salary>=90000)
+        {
+        System.out.println("5 years Experience");
+        }
+        else if(salary>=40000 && salary < 90000)
+        {
+        System.out.println("3 years Experience");
+        }
+        else if(salary>=30000 && salary < 40000)
+        {
+        System.out.println("2 years Experience");
+        }
+        else
+        {
+           System.out.println("Below 1 year Experience"); 
+        }
+    }
+
+    public static void jones(String s)
+    {
+        System.out.println("My Name is Jones");
+    }
+
+    public static void manoj(String m)
+    {
+        System.out.println("My Name is Manoj");
+    }
+
+    public static void add(int a, int b)
+    {
+        int c = a+b;
+        System.out.println("c = "+c);
+
+
+    }
+   
+}

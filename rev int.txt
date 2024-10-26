@@ -1,0 +1,18 @@
+class HelloWorld 
+{
+    public static void main(String[] args) 
+    {
+      int ori = 6789;
+      int rev = 0;
+      
+        System.out.println("Original Number:"+ori+",");
+
+      while(ori>0)
+      {
+          int test = ori%10;
+          rev = (rev *10)+test;
+          ori/=10;
+      }
+      System.out.print("Reversable Number:"+rev);
+    }
+}

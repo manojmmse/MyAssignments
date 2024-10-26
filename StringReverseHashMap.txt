@@ -1,0 +1,36 @@
+import java.util.HashMap;
+
+public class StringReverseHashMap 
+{
+    public static void main(String[] args) 
+	{
+        String inputString = "Hello, world!";
+        String reversedString = reverseString(inputString);
+        System.out.println("Original String: " + inputString);
+        System.out.println("Reversed String: " + reversedString);
+    }
+
+    public static String reverseString(String str) 
+	{
+        char[] charArray = str.toCharArray();
+        int n = charArray.length;
+
+        // Creating a HashMap to store character position mappings
+        HashMap<Integer, Character> charMap = new HashMap<>();
+
+        // Storing characters and their positions in the HashMap
+        for (int i = 0; i < n; i++) 
+		{
+            charMap.put(i, charArray[i]);
+        }
+
+        // Reversing the string using the HashMap
+        StringBuilder reversedString = new StringBuilder();
+        for (int i = n - 1; i >= 0; i--) 
+		{
+            reversedString.append(charMap.get(i));
+        }
+
+        return reversedString.toString();
+    }
+}

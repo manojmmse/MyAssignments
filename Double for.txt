@@ -1,0 +1,23 @@
+public class Program
+{
+    public static void main(String[] args) {
+
+        for (int i=10;i<=19;i++)
+        {
+             int num = i;
+
+            String result = "Prime number - "+num;
+            
+            for(int j=2;j<=num/2
+            ;j++)
+            {
+                if (num%j==0)
+                result = "Not Prime - "+num;
+                break;
+            }
+            System.out.println(result);
+        }
+        
+		
+	}
+}

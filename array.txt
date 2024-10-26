@@ -1,0 +1,12 @@
+public class Program
+{
+    public static void main(String[] args) 
+    {
+		String[] cars = {"Volvo", "Honda", "BMW", "Lexus"};
+
+        for(String c: cars)
+        {
+            System.out.println(c);
+        }
+	}
+}

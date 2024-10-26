@@ -1,0 +1,35 @@
+public class Program
+{
+    public static void main(String[] args)
+    {
+     Payslip();
+	}
+    public static void Payslip()
+    {
+        int Salary = 20000;
+        int PF = 1500;
+        int allowances = 200;
+        int Other = 300;
+
+        int otherexpenses = PF+allowances+Other;
+        int Salarywithouttax = Salary - otherexpenses;
+
+        System.out.println(Salarywithouttax);
+        System.out.println(PF);
+        System.out.println(allowances);
+        System.out.println(Other);
+    }
+
+    public static void bonus(int Salary)
+    {
+        if (Salary>20000 && Salary<18000)
+        {
+         System.out.println("");
+        }
+        else if(Salary>20000 && Salary<18000)
+         {
+         System.out.println("");
+        }
+    }
+    
+}

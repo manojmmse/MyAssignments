@@ -1,0 +1,17 @@
+public class Program
+{
+    public static void main(String[] args) 
+    {
+        int a = 9;
+        int b = 7;
+        
+        int c = a;
+        a = b;
+        b = c;
+        
+
+         System.out.println("Enter a Value of A is:"+a);
+         System.out.println("Enter a Value of B is:"+b);
+
+	}
+}

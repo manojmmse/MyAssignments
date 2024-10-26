@@ -1,0 +1,71 @@
+Page Interactions :
+
+1.LoginInteraction
+2.Payment
+3.SearchProduct
+
+Page Objects :
+
+1.CheckOutAndPayment
+2.LoginPage
+3.SearchProduct
+
+Test Utils :
+
+1.Test Base
+
+
+
+==============================
+common methods 
+test utils --- package
+
+Test base -------------Class
+
+
+
+==============================================
+xpath
+page objects  ----package
+
+1.LoginPage extends test base
+
+2.SearchProduct
+
+3. CheckOutAndPayment
+
+
+
+=================================================
+page Interactions -----Package
+
+ovoru page la iruka method
+
+1.LoginInteraction ------
+
+create acc
+login
+
+
+2.SearchProduct -----
+
+=================================================
+
+
+Execution -------Class
+
+Testng 
+@test(priority = 1 , enabled = true)
+
+logininterhggasdwh log = new logininterhggasdwh
+
+log.createacc
+log.login
+
+
+@test
+
+
+
+
+

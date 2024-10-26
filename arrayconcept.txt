@@ -1,0 +1,36 @@
+public class Program
+{
+    public static void main(String[] args) 
+    {
+		int [] input = {4, 7, 8, 2, 1, 3};
+        int evensum = 0;
+        int oddsum = 0;
+
+        for(int i = 0; i <input.length; i++)
+
+        {
+            
+            if(input[i]%2==0)
+
+            {
+                evensum = evensum+input[i];
+                System.out.println(input[i]);
+            }
+
+            else
+            {
+            
+                oddsum = oddsum+input[i];
+                System.out.println(input[i]);
+
+
+            }
+        }
+
+            System.out.println("EVEN:"+evensum);
+
+            System.out.println("ODD:"+oddsum);
+    
+        
+	}
+}

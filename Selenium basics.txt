@@ -1,0 +1,38 @@
+Selenium: Jason Huggins (2004)
+WebDriver: Siemen Stewards (2007)
+Selenium WebDriver (V3)- 2009
+
+
+QTP - QuickTest Professional -  Commercial (very costly)
+	- Support Multiple Apps
+	- vbScript/ Javascript	
+	- Doesn't provide any Support for linux/mac
+Selenium - Open Source (no licence cost)
+		 - Only web based Apps
+		 - Java, Phython, Ruby, Pearl, C#, etc.,
+		 - Works with Windows, Mac, linux
+
+Selenium WebDriver:
+
+	can automate only web apps
+	it can talk to different browsers (chrome, firefox, edge, IE, safari, opera)
+	Works with Windows, Mac, linux, Android
+	
+Cannot do ?
+	can we automate excel sheet ? No. window based apps.(Java libraries --> Appache POI)
+	can we automate mainframe apps ? No. (java libraries --> WinAppDriver)
+	can it talk to database? No (java libraries --> JDBC)
+	can it automate mobile based apps ? No (java libraries -- > Appium)
+	can we perform performance testing ? No (Jmeter/gating/load runner)
+	
+Opensource tools --> browsers..
+		Selenium webDriver - More than 40% market share
+		Puppeteer - Chrome/JS
+		Cypress - Chrome, Firefox / JS
+		WebDriver.io -JS
+		Playwright
+	
+	
+	
+	
+	
